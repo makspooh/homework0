@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.form-container {
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .form-container__headliner {
+    margin-bottom: 40px;
+    font-family: bold, 'Open Sans', serif; }
+
+.form {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: bold; }
+  .form__headliners-block {
+    height: 190px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end; }
+    .form__headliners-block__name, .form__headliners-block__card-number, .form__headliners-block__date, .form__headliners-block__post-code {
+      margin-block-start: 0;
+      margin-block-end: 0; }
+    .form__headliners-block__name {
+      margin-top: 5px; }
+    .form__headliners-block__post-code {
+      margin-bottom: 5px; }
+  .form__block-1 {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .form__block-1__name {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .form__block-1__name input:first-child {
+      margin-right: 20px; }
+    .form__block-1__card-number {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .form__block-1__card-number__input {
+        margin-right: 20px; }
+      .form__block-1__card-number__cards {
+        width: 185px;
+        height: 35px;
+        border-radius: 3px;
+        background-image: url("../img/8C109A5E-2EC1-4583-BCFA-7EF02CE60A4C@2x.jpg");
+        background-position-x: 2307px;
+        background-position-y: -637px;
+        background-size: 1450px; }
+    .form__block-1__date {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .form__block-1__date__text {
+        margin-right: 5px;
+        margin-block-start: 0;
+        margin-block-end: 0; }
+    .form__block-1__post-code {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .form__block-1__button-container__button {
+      width: 395px;
+      height: 35px;
+      border: none;
+      border-radius: 3px;
+      background: linear-gradient(#fb0, #f90);
+      color: white;
+      cursor: pointer; }
+  .form__block-2 {
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px; }
+    .form__block-2__paypal {
+      width: 150px;
+      height: 55px;
+      background-image: url("../img/8C109A5E-2EC1-4583-BCFA-7EF02CE60A4C@2x.jpg");
+      background-position-x: 1900px;
+      background-position-y: -665px;
+      background-size: 1400px;
+      border-radius: 4px; }
+
+input {
+  padding-left: 10px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px; }
+
+.input_month {
+  margin-right: 5px;
+  width: 57px; }
+
+.input_year {
+  margin-right: 17px;
+  width: 90px; }
+
+.input_cvv {
+  margin-right: 5px;
+  width: 117px; }
+
+span {
+  margin-right: 5px; }
